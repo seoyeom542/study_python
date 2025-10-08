@@ -49,6 +49,9 @@ print(math.sqrt(16)) # 제곱근
 print(math.sqrt(5)) # 2.23606797749979
 
 import random
-print(random.random()) # 0.0 ~ 1.0 사이의 임의값 출력
-print(random.random() * 10) # 0.0 ~ 10.0 사이의 임의값 출력
-print(int(random.random() * 10)) # 0 ~ 10 사이의 임의값 출력
+print(random.random()) # 0.0 ~ 1.0 미만 사이의 임의값 출력
+print(random.random() * 10) # 0.0 ~ 10.0 미만 사이의 임의값 출력
+print(int(random.random() * 10)) # 0 ~ 10 미만 사이의 임의값 출력
+print(int(random.random() * 10) + 1) # 1 ~ 10 미만 사이의 임의값 출력
+
+print(random.randint(1, 100)) # 1 ~ 100 이하 사이의 임의값 출력

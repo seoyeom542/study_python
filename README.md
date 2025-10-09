@@ -5,6 +5,7 @@
 <br>
 https://docs.python.org/3/
 <br>
+<br>
 ### 코드 작성을 위해 학습한 강의 목록
 <br>
 - 생활코딩: https://opentutorials.org/course/4769 (25.10.08 end)
